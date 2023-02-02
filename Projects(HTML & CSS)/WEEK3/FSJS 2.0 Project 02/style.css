@@ -1,0 +1,87 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.navbar{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #000000;
+    padding: 10px 50px;
+    gap: 30px;
+
+}
+nav div img{
+height: 30px;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    gap: 55px;
+    color: white;
+    font-weight: 600;
+    justify-content: flex-start;
+
+}
+.line{
+    border: 1px solid rgb(73, 65, 65);
+    height: 50px;
+    margin-left: 50px;
+}
+
+.button-small{
+    /* display: flex; */
+    padding: 8px 20px;
+    background-color: rgb(238, 34, 238);
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    margin-left: 300px;
+
+}
+.hero{
+
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-image: url("./assets/bg.png");
+}
+.hero-heading{
+    font-size: 80px;
+    color: white;
+    width: 900px;
+    font-family: sans-serif;
+    text-align: center;
+    
+}
+.hero-description{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin: 10px 0px 50px 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.button-large{
+
+    padding: 8px 20px;
+    background-color: rgb(238, 34, 238);
+    border-radius: 5px;
+    color: white;
+    font-weight: 400;
+    font-family:  monospace;
+     border: none;
+    font-size: 25px;
+
+}
+.button-large:hover{
+    background-color: rgb(231, 49, 231);
+    color: #dad1d1;
+}

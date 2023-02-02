@@ -1,0 +1,150 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    /* overflow: hidden; */
+}
+.navbar-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+
+}
+
+
+.list-item{
+    font-family: 'Orbitron';
+    font-weight: 600;
+
+}
+.list-item:first-child{
+    font-weight: 1000;
+    text-decoration: underline;
+}
+
+.nav-button{
+background-color: white;
+    border-radius: 15px;
+    padding: 2px;
+    padding-inline: 50px;
+    font-family: 'Poppins';
+    font-size: 25px;
+    border: 2px solid black;
+}
+.button-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+/* hero  */
+
+.hero-container{
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    gap: 30px;
+}
+
+.square{
+   position: absolute;
+   z-index: -1;
+   left: 150px;
+   top: 390px;
+   padding: 50px;
+  
+}
+.square img{
+    width: 80%;
+    
+}
+.hero-container div>img{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    top: 40px;
+    /* height: 50px; */
+    width: 450px;
+}
+.star{
+    position: absolute;
+    left: 1200px;
+    top: 150px;
+
+}
+.star + span>img{
+    position: absolute;
+    right: 500px;
+    top: 550px;
+    width: 50px;
+}
+
+.globe{
+    position: absolute;
+    /* top: 2px; */
+    right: 900px;
+    bottom: 1100px;
+    left: 1200px;
+}
+.hero-container-right{
+    width: 50%;
+    padding-left: 100px;
+}
+.hero-container-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 150px;
+}
+.hero-heading{
+    font-size: 49px;
+    font-family: 'Orbitron';
+}
+.hero-description{
+    text-align: center;
+    padding-inline: 50px;
+    color: rgb(139, 137, 135);
+    margin: 50px;
+    padding-bottom: 40px;
+}
+.button-email{
+padding: 2px;
+padding-inline: 10px;
+font-family: 'Orbitron';
+border-radius: 5px;
+border: 1px solid;
+background-color: white;
+}
+.button-join{
+    padding: 2px;
+    font-family: 'Orbitron';
+    border-radius: 5px;
+    color: white;
+border: 1px solid;
+background-color: black;
+}
+.contact-heading{
+    font-family: 'Poppins';
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 20px;
+    color: rgb(139, 137, 135);
+}
+.icons{
+    display: flex;
+    gap: 20px;
+}
